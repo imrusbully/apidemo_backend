@@ -1,0 +1,23 @@
+logging:
+  level:
+    root: WARN
+
+    com.demo: INFO
+
+    org.springframework: WARN
+    org.springframework.boot: WARN
+    org.springframework.web: WARN
+    org.springframework.security: WARN
+
+    org.hibernate: WARN
+    org.hibernate.SQL: WARN
+    org.flywaydb: WARN
+
+    com.zaxxer.hikari: WARN
+    io.lettuce.core: WARN
+    org.apache.catalina: WARN
+  payload:
+    enabled: true
+    max-body-length: 4000
+#    body-blacklist:
+#      - / api/v1/
