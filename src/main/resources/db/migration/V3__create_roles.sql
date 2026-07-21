@@ -1,6 +1,6 @@
 CREATE TABLE roles
 (
-    id          UUID         NOT NULL DEFAULT gen_random_uuid(),
+    id          UUID         NOT NULL,
     name        VARCHAR(100) NOT NULL,
     description VARCHAR(255),
     enabled     BOOLEAN      NOT NULL DEFAULT true,
